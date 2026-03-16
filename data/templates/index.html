@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Medical Document Analyzer</title>
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background: linear-gradient(135deg, #1e3c72, #2a5298);
+      }
+
+      .container {
+        background: white;
+        padding: 40px;
+        border-radius: 12px;
+        width: 420px;
+        text-align: center;
+
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+      }
+
+      h2 {
+        color: #1e3c72;
+        margin-bottom: 15px;
+      }
+
+      input[type="file"] {
+        margin: 15px 0;
+      }
+
+      button {
+        padding: 12px 24px;
+        border: none;
+        background: #2a5298;
+        color: white;
+        font-size: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      button:hover {
+        background: #1e3c72;
+      }
+
+      .output {
+        margin-top: 20px;
+        padding: 15px;
+
+        background: #f5f7fa;
+        border-radius: 8px;
+
+        text-align: left;
+
+        color: #333;
+        font-size: 14px;
+
+        white-space: pre-wrap; /* keeps JSON in readable lines */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>Medical Document Analyzer</h2>
+
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required />
+        <br />
+
+        <button type="submit">Upload & Analyze</button>
+      </form>
+    </div>
+  </body>
+</html>

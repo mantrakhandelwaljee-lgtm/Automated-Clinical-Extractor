@@ -1,0 +1,51 @@
+procedure,cpt_code
+Office visit new patient,99203
+Office visit established patient,99213
+Blood test complete blood count,85025
+Basic metabolic panel,80048
+Comprehensive metabolic panel,80053
+Lipid panel,80061
+Thyroid stimulating hormone test,84443
+Chest x-ray,71045
+Abdominal ultrasound,76700
+CT scan head,70450
+CT scan abdomen,74177
+MRI brain,70551
+MRI spine,72148
+Electrocardiogram ECG,93000
+Echocardiogram,93306
+Colonoscopy diagnostic,45378
+Upper GI endoscopy,43235
+Appendectomy,44950
+Gallbladder removal cholecystectomy,47562
+Hernia repair inguinal,49505
+Knee arthroscopy,29881
+Hip replacement surgery,27130
+Cataract surgery,66984
+Skin biopsy,11102
+Wound repair simple,12001
+Wound repair intermediate,12031
+Vaccination administration,90471
+Flu vaccine,90658
+COVID vaccine administration,91300
+Pap smear test,88175
+Urinalysis test,81001
+Pregnancy test urine,81025
+Rapid strep test,87880
+COVID PCR test,87635
+Spirometry lung test,94010
+Pulmonary function test,94726
+Dialysis procedure,90935
+Physical therapy evaluation,97161
+Physical therapy session,97110
+Chiropractic manipulation,98940
+Psychotherapy session 30 minutes,90832
+Psychotherapy session 60 minutes,90837
+Sleep study polysomnography,95810
+EEG brain test,95816
+Bone density scan DEXA,77080
+Mammography screening,77067
+Prostate screening PSA test,84153
+Vitamin D test,82306
+Blood glucose test,82947
+Insulin injection administration,96372

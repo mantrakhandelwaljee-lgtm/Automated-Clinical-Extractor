@@ -1,0 +1,51 @@
+disease,icd10_code
+Type 2 diabetes,E11.9
+Hypertension,I10
+Asthma,J45.909
+Acute bronchitis,J20.9
+Pneumonia,J18.9
+Chronic obstructive pulmonary disease,J44.9
+Gastroesophageal reflux disease,K21.9
+Acute appendicitis,K35.80
+Gallstones,K80.20
+Urinary tract infection,N39.0
+Chronic kidney disease,N18.9
+Acute kidney failure,N17.9
+Migraine,G43.909
+Epilepsy,G40.909
+Stroke,I63.9
+Heart failure,I50.9
+Coronary artery disease,I25.10
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Obesity,E66.9
+Depression,F32.9
+Anxiety disorder,F41.9
+Insomnia,G47.00
+Osteoarthritis,M19.90
+Rheumatoid arthritis,M06.9
+Back pain,M54.5
+Neck pain,M54.2
+Sciatica,M54.30
+Fracture of wrist,S62.101A
+Fracture of ankle,S82.899A
+Sprain ankle,S93.401A
+Burn first degree,T30.0
+Skin infection cellulitis,L03.90
+Acne,L70.9
+Allergic rhinitis,J30.9
+Sinusitis,J01.90
+Ear infection otitis media,H66.90
+Conjunctivitis,H10.9
+Cataract,H25.9
+Glaucoma,H40.9
+COVID19,U07.1
+Influenza,J10.1
+Tuberculosis,A15.9
+Hepatitis B,B16.9
+Hepatitis C,B19.20
+HIV disease,B20
+Sepsis,A41.9
+Dengue fever,A90
