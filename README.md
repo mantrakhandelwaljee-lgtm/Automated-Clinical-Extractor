@@ -183,31 +183,45 @@ Generated FHIR Bundle:
 ```
 ## 🛠 Installation
 ### 1️⃣ Clone the repository:
+
  - git clone https://github.com/yourusername/project-name.git
  - cd project-name
 
 ### 2️⃣ Create virtual environment:
- - python3.11 -m venv nlp_env
- - source nlp_env/bin/activate
- 
+
+```
+python3.11 -m venv nlp_env
+source nlp_env/bin/activate
+```
 ### 3️⃣ Install dependencies:
-- pip install -r requirements.txt
+
+```
+pip install -r requirements.txt
+```
 
 ### 4️⃣ Install spaCy models:
-- python -m spacy download en_core_web_sm
-- pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_sm-0.5.4.tar.gz
-- pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz
+```
+python -m spacy download en_core_web_sm
+pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_sm-0.5.4.tar.gz
+pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz
+```
 
 ### 5️⃣ Install Poppler (required for OCR):
-- brew install poppler
+```
+brew install poppler
+```
 
 ## ▶️ Running the Application
 
 ### Start the server:
-- uvicorn main:app --reload
+```
+uvicorn main:app --reload
+```
 
 ### Open in browser:
-- http://127.0.0.1:8000
+```
+http://127.0.0.1:8000
+```
 
 ## 📈 Future Improvements
 
